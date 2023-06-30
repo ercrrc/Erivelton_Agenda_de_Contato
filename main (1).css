@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+}
+
+.container {
+    margin: 85px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+form {
+    margin-top: 45px;
+}
+
+
+input, textarea, button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+}
+
+button {
+    background-color: rgb(33, 243, 33);
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    font-style:italic;
+    cursor: pointer;
+}
+
+.sucess-menssage {
+    background-color: rgb(33, 243, 33);
+    padding: 16px;
+    display: none;
+}
+
