@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Bungee', sans-serif;
 }
 
 body {
-    background-color: #E7E7E7;
+    background-color: #e7e7e7;
     padding-top: 100px;
 }
 
@@ -16,13 +16,8 @@ header {
     margin-bottom: 40px;
 }
 
-header img {
-    height: 36px;
-    margin-right: 16px;
-}
-
 header h1 {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
 }
 
@@ -49,8 +44,8 @@ form input {
 }
 
 form button {
-    background-color: #009432;
-    color: #fff;
+    background-color: rgb(56, 212, 56);
+    color: aliceblue;
     font-size: 24px;
     font-weight: bold;
     border: none;
@@ -73,28 +68,13 @@ table td {
     padding: 16px 0;
     text-align: center;
     font-size: 18px;
-    text-align: center;
-    font-size: 18px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5 );
 }
 
-table td img {
-    height: 30px;
-
-}
-
-.resultado {
+.cadastrado {
     padding: 8px;
     font-weight: bold;
-    color:#fff;
-    background-color: #000;
+    color: #fff;
+    background-color: rgb(26, 223, 26);
     border-radius: 3px;
-}
-
-.aprovado {
-    background-color:#009432 ;
-}
-
-.reprovado {
-    background-color:red ;
 }
